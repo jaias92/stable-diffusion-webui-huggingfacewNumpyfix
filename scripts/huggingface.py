@@ -1,4 +1,5 @@
 import os
+python -m pip install numpy==1.26.4
 import numpy as np
 import gradio as gr
 from huggingface_hub import model_info, create_repo, create_branch, upload_folder, upload_file
